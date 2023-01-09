@@ -1,7 +1,10 @@
-const choice = ["Rock", "Paper", "Scissors"]
-const randomChoice = Math.floor(Math.randomI() * choice.length)
-console.log(randomChoice, choice[random])
-
-function getComputerChoice(choice) {
-
+function getComputerChoice(choices) {
+    return choices[Math.floor(Math.random()*choices.length)]
 }
+const choices = ["Rock" , "Paper" , "Scissors"];
+
+function playRound(playerSelection , computerSelection) {
+     
+}
+const playerSelection = "Rock";
+const computerSelection = getComputerChoice();
